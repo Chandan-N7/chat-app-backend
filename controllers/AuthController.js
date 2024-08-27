@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken")
 const User = require("../models/UserModel.js");
-const { compare } = require("bcrypt");
+const { compare } = require("bcryptjs");
 const fs = require("fs");
 const path = require("path");
 
