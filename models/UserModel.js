@@ -1,5 +1,4 @@
 const mongoose = require("mongoose")
-const bcrypt = require ("buffer");
 const { genSalt, hash } = require("bcrypt");
 const userSchema = new mongoose.Schema({
     email: {
